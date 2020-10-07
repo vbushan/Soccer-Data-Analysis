@@ -4,8 +4,8 @@
 In the world of sports, it is always difficult to predict the outcome of a match. This is more evident
 in an unpredictable sport like soccer where its nearly impossible to predict the outcome of a match
 even after the available data like team configuration, player attributes and other such features.Being
-soccer enthusiasts, and upstarts in Machine Learning, we would like leverage the learning methods of
-Machine Learning for an in-depth analysis of European Soccer data-set.
+soccer enthusiasts, we would like leverage the learning methods of
+Machine Learning for an in-depth analysis of European Soccer data.
 
 
 Data set- https://www.kaggle.com/hugomathien/soccer.
@@ -28,10 +28,10 @@ Since, our problem was to find a better player for a bargain, we decided to find
 So, we resorted to using an unsupervised clustering algorithm called k-means clustering.
 The K-Means clustering algorithm groups data into clusters based on distances between data points, in the data space. So, we decided to use the following playing attributes 37 player attributes like-
 
-•	Height
-•	Weight
-•	overall_rating
-•	potential
+*	Height
+*	Weight
+*	overall_rating
+*	potential
 •	crossing
 •	finishing
 •	heading_accuracy
