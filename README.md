@@ -50,7 +50,7 @@ The K-Means clustering algorithm groups data into clusters based on Eucledian di
 
 Now the next issue was to choose the value of k. Since, we initially wanted to cluster players based on their playing positions we chose a value of 5. The algorithm clustered data points into five clusters and as we suspected a major portion of the players in each group had the same playing positions. For example- 
 1)	 Lionel Messi, and Cristiano Ronaldo were in the same group.
-2)	Also, David Da Gea, and Jan Oblak were also clustered in the same group.
+2)	Also, David Da Gea, and Jan Oblak were clustered in the same group.
 
 To compare our results, we tested the results for different values of k. (The elbow method). And as can be seen in the graph, the error or dispersion function elbows at k=4/5.
 
