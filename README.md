@@ -26,28 +26,27 @@ So, we realized that we’re approaching the question in a wrong.
 Since, our problem was to find a better player for a bargain, we decided to find groups of similar players, and then analyze the attributes between the players in each group that would lead to a bargain.  
 
 So, we resorted to using an unsupervised clustering algorithm called k-means clustering.
-The K-Means clustering algorithm groups data into clusters based on distances between data points, in the data space. So, we decided to use the following playing attributes 37 player attributes like-
+The K-Means clustering algorithm groups data into clusters based on Eucledian distances between data points. So, we decided to use the following Player attributes as parameters for clustering -
 
 *	Height
 *	Weight
 *	overall_rating
 *	potential
-•	crossing
-•	finishing
-•	heading_accuracy
-•	short_passing
-•	volleys
-•	dribbling
-•	curve
-•	free_kick_accuracy
-•	long_passing
-•	ball_control
-•	acceleration
-•	sprint_speed
-•	agility
-•	reactions
-•	balance
-for clustering.
+*	crossing
+*	finishing
+*	heading_accuracy
+*	short_passing
+*	volleys
+*	dribbling
+*	curve
+*	free_kick_accuracy
+*	long_passing
+*	ball_control
+*	acceleration
+*	sprint_speed
+*	agility
+*	reactions
+*	balance
 
 Now the next issue was to choose the value of k. Since, we initially wanted to cluster players based on their playing positions we chose a value of 5. The algorithm clustered data points into five clusters and as we suspected a major portion of the players in each group had the same playing positions. For example- 
 1)	 Lionel Messi, and Cristiano Ronaldo were in the same group.
